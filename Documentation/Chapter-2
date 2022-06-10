@@ -1,0 +1,59 @@
+IoT:
+	The internet of things, or IoT, is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.
+A thing in the internet of things can be a person with a heart monitor implant, a farm animal with a biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low or any other natural or man-made object that can be assigned an Internet Protocol (IP) address and is able to transfer data over a network.
+Increasingly, organizations in a variety of industries are using IoT to operate more efficiently, better understand customers to deliver enhanced customer service, improve decision-making and increase the value of the business.
+
+How does IoT work?
+
+An IoT ecosystem consists of web-enabled smart devices that use embedded systems, such as processors, sensors and communication hardware, to collect, send and act on data they acquire from their environments. IoT devices share the sensor data they collect by connecting to an IoT gateway or other edge device where data is either sent to the cloud to be analyzed or analyzed locally. Sometimes, these devices communicate with other related devices and act on the information they get from one another. The devices do most of the work without human intervention, although people can interact with the devices -- for instance, to set them up, give them instructions or access the data.
+The connectivity, networking and communication protocols used with these web-enabled devices largely depend on the specific IoT applications deployed.
+IoT can also make use of artificial intelligence (AI) and machine learning to aid in making data collecting processes easier and more dynamic.
+
+Advantages of IoT:
+•	Cost reduction
+•	Efficiency and productivity
+•	Business opportunities
+•	Customer experience
+•	Mobility and agility
+
+Arduino IDE:
+	Arduino is an open-source hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a CC BY-SA license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL), permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors.
+            
+Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits. The boards feature serial communications interfaces, including Universal Serial Bus (USB) on some models, which are also used for loading programs. The microcontrollers can be programmed using the C and C++ programming languages, using a standard API which is also known as the Arduino language, inspired by the Processing language and used with a modified version of the Processing IDE. In addition to using traditional compiler toolchains, the Arduino project provides an integrated development environment (IDE) and a command line tool developed in Go.
+
+Node MCU ESP8266:
+	NodeMCU is a low-cost open source IoT platform. It initially included firmware which runs on the ESP8266 Wi-Fi SoC from Espressif Systems, and hardware which was based on the ESP-12 module. Later, support for the ESP32 32-bit MCU was added.
+	NodeMCU is an open source firmware for which open source prototyping board designs are available. The name "NodeMCU" combines "node" and "MCU" (micro-controller unit).[8] The term "NodeMCU" strictly speaking refers to the firmware rather than the associated development kits.[citation needed]
+Both the firmware and prototyping board designs are open source.
+The firmware uses the Lua scripting language. The firmware is based on the eLua project, and built on the Espressif Non-OS SDK for ESP8266. It uses many open source projects, such as lua-cjson and SPIFFS. Due to resource constraints, users need to select the modules relevant for their project and build a firmware tailored to their needs. Support for the 32-bit ESP32 has also been implemented.
+The prototyping hardware typically used is a circuit board functioning as a dual in-line package (DIP) which integrates a USB controller with a smaller surface-mounted board containing the MCU and antenna. The choice of the DIP format allows for easy prototyping on breadboards. The design was initially based on the ESP-12 module of the ESP8266, which is a Wi-Fi SoC integrated with a Tensilica Xtensa LX106 core, widely used in IoT applications.
+                      
+	We use ESP-12 version in this project.
+Relay Module:
+The relay is the device that open or closes the contacts to cause the operation of the other electric control. It detects the undesirable condition with an assigned area and gives the commands to the circuit breaker to disconnect the affected area through ON or OFF.
+Every electromechanical relay consists of
+1. Electromagnet
+3. Mechanically movable contact
+3. Switching points and
+4. Spring.
+One Channel Relay Module:
+	 
+COM:common pin
+NO: Normally open – there is no contact between the common pin and the normally open pin. So, when you trigger the relay, it connects to the COM pin and power is provided to the load.
+NC: Normally closed – there is contact between the common pin and the normally closed pin. There is always connection between the COM and NC pins, even when the relay is turned off. When you trigger the relay, the circuit is opened and there is no supply provided to the load.
+
+Relay Module 2-Channel Circuit Diagram:
+ 
+APPLICATIONS OF RELAY:
+A. They can be used for both ac and dc systems for protection of ac and dc equipment’s
+B. Electromagnetic relays operating speeds which has the ability to operate in milliseconds are also can be possible
+C. They have the properties such as simple, robust, compact and most reliable
+D. These relays are almost instantaneous. Though instantaneous the operating time of the relay varies with the current. With extra arrangements like dashpot, copper rings.
+E. Electromagnetic relays have fast operation and fast reset
+
+DISADVANTAGES:
+a. High burden level instrument transformers are required (CTs and PTs of high burden is required for operating the electromagnetic relays compared to static relays)
+b. The directional feature is absent in electromagnetic relays
+c. Requires periodic maintenance and testing unlike static relays
+d. Relay operation can be affected due to ageing of the components and dust, pollution resulting in spurious trips
+e. Operation speed for an electromagnetic relays is limited by the mechanical inertia of the component.
